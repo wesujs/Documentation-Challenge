@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: gray;
+    background-color: color;
+}
+
+.docs-title {
+    margin-top: 7%;
+}
+
+/* Content Area */
+
+.main-section {
+    list-style-position: inside;
+}
+
+.subheading {
+    margin-left: 5%;
+    margin-top: 7%;
+    font-size: calc(1.325rem + .9vw);
+    font-weight: 600;
+}
+
+.com-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    width: 75%;
+    margin-top: 5%;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: calc(1.325rem + .9vw);
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 7%;
+}
+
+.list {
+    margin-left: 10%;
+}
+
+.information {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.main-section ul {
+    display: table;
+}
+
+
+/* Footer Action  */
+
+
+footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+      background-color: #1f2022;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+  
+
+  @media only screen and (max-width: 575px) {
+
+  }
